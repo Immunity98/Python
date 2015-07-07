@@ -6,14 +6,12 @@ a = int(input())
 i=1
 s=1
 if a>1000:
-          exit
-if a % 2 ==0:
+          exit()
+if (a % 6) ==0 or ((a==1) or (a==2)): 
           while s <a:
                     if s<a:
                               a=a/i
                               i=i+1
-                    else:
-                              i=1
           if i>1:
                     i=i-1
           if a<=0:
